@@ -1,0 +1,30 @@
+{
+    "name": "xjlldw/daily-quote",
+    "version": "1.0.0",
+    "type": "frontend",
+    "description": "每日鸡汤语录顶部导航栏插件，不创建菜单，支持随机换句、复制和本地收藏",
+    "author": [
+        {
+            "name": "xjlldw"
+        }
+    ],
+    "keywords": [
+        "mineadmin",
+        "plugin",
+        "daily-quote",
+        "toolbar"
+    ],
+    "homepage": "https://github.com/ohmangocat/daily-quote",
+    "license": "MIT",
+    "require": [],
+    "composer": {
+        "require": {},
+        "psr-4": {
+            "Plugin\\Xjlldw\\DailyQuote\\": "src"
+        },
+        "config": "Plugin\\Xjlldw\\DailyQuote\\ConfigProvider"
+    },
+    "package": {
+        "dependencies": {}
+    }
+}
