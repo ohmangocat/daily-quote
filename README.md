@@ -22,3 +22,11 @@ php bin/hyperf.php mine-extension:install xjlldw/daily-quote --yes
 ```
 
 插件安装后会复制 `web/` 到 MineAdmin 前端插件目录，前端重新构建或开发服务热更新后生效。
+
+## 封面生成
+
+封面由根目录的 `generate-cover.ps1` 生成，不依赖 AI。
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\generate-cover.ps1
+```
